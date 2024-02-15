@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mimas"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-15 04:59:49 p. m."/>
+        <attribute name="created" value="TWltYXM7IERFU0tUT1AtNDQwUkhFMzsgMjAyNC0wMi0xNTsgMDQ6NDg6NTYgcC4gbS47IDMwODM="/>
+        <attribute name="edited" value="TWltYXM7IERFU0tUT1AtNDQwUkhFMzsgMjAyNC0wMi0xNTsgMDQ6NTk6NDkgcC4gbS47IDMwODc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="edad" type="Integer" array="False" size=""/>
+            <assign variable="edad" expression="21"/>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <assign variable="nombre" expression="&quot;ismael perez&quot;"/>
+            <declare name="carrera" type="String" array="False" size=""/>
+            <assign variable="carrera" expression="&quot;sistemas computacionales&quot;"/>
+            <output expression="&quot;tu edad es&quot;"/>
+            <output expression="edad"/>
+            <output expression="&quot;tu nombre es&quot;"/>
+            <output expression="nombre"/>
+            <output expression="&quot;tu carrera es&quot;"/>
+            <output expression="carrera"/>
+        </body>
+    </function>
+</flowgorithm>
