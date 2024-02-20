@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mimas"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-20 04:58:15 p. m."/>
+        <attribute name="created" value="TWltYXM7IERFU0tUT1AtNDQwUkhFMzsgMjAyNC0wMi0yMDsgMDQ6MjM6MzQgcC4gbS47IDMwNjg="/>
+        <attribute name="edited" value="TWltYXM7IERFU0tUT1AtNDQwUkhFMzsgMjAyNC0wMi0yMDsgMDQ6NTg6MTUgcC4gbS47IDMwNzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Clave" type="String" array="False" size=""/>
+            <declare name="Nombre" type="String" array="False" size=""/>
+            <declare name="Carrera" type="String" array="False" size=""/>
+            <declare name="TipoMateria" type="Boolean" array="False" size=""/>
+            <declare name="Creditos" type="Integer" array="False" size=""/>
+            <declare name="HorasTeoricas" type="Integer" array="False" size=""/>
+            <declare name="HorasPracticas" type="Integer" array="False" size=""/>
+            <output expression="&quot;Introducir su clave: &quot;"/>
+            <input variable="clave"/>
+            <output expression="&quot;Introducir su nombre: &quot;"/>
+            <input variable="Nombre"/>
+            <output expression="&quot;&#191;Es una materia generica?: &quot;"/>
+            <input variable="TipoMateria"/>
+            <output expression="&quot;Introducir numero creditos: &quot;"/>
+            <input variable="Creditos"/>
+            <output expression="&quot;Introducir horas de teoria: &quot;"/>
+            <input variable="HorasTeoricas"/>
+            <output expression="&quot;Introducir horas practicas: &quot;"/>
+            <input variable="HorasPracticas"/>
+            <output expression="&quot;Introducir carrera: &quot;"/>
+            <input variable="carrera"/>
+            <output expression="&quot;Tus datos son:&quot;"/>
+            <output expression="clave"/>
+            <output expression="nombre"/>
+            <output expression="TipoMateria"/>
+            <output expression="creditos"/>
+            <output expression="HorasTeoricas"/>
+            <output expression="HorasPracticas"/>
+            <output expression="carrera"/>
+        </body>
+    </function>
+</flowgorithm>
